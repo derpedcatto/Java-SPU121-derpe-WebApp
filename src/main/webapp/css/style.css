@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 200,
+            'GRAD' 0,
+            'opsz' 20
+}
+
+/*
+Nav header
+ */
+
+#nav-mobile li a {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.nav-wrapper {
+    padding: 0 1rem;
+}
+
+.nav-wrapper .brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.md-48 {
+    font-size: 40px;
+}
