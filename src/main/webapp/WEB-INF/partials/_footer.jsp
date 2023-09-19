@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col l6 s12">
                 <h5 class="white-text">I'm a footer</h5>
-                <p class="grey-text text-lighten-4">I display useful information</p>
+                <p class="grey-text text-lighten-4"><%= request.getAttribute("userAgent")%></p>
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
