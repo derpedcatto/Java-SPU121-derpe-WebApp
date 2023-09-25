@@ -53,6 +53,9 @@ https://fonts.google.com/icons
             <li class="<%="filter.jsp".equals(pageBody)?"active":""%>"><a href="<%= context %>/filter">
                 <span class="material-symbols-outlined">filter_alt</span>  Filter
             </a></li>
+            <li class="<%="ioc.jsp".equals(pageBody)?"active":""%>"><a href="<%= context %>/ioc">
+                <span class="material-symbols-outlined">open_in_new</span>  IoC
+            </a></li>
         </ul>
     </div>
 </nav>
